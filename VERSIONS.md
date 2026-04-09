@@ -1,6 +1,6 @@
 # Marketing Skills Versions
 
-Current versions of all skills. Agents can compare against local versions to check for updates.
+Reference manifest of skill versions in this fork. **Do not use this file for auto-update checks** — see AGENTS.md update policy. Updates from upstream are pulled manually.
 
 | Skill | Version | Last Updated |
 |-------|---------|--------------|
