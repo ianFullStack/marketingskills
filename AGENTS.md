@@ -193,28 +193,9 @@ Skills reference relevant tools for implementation. For example:
 
 For tools without native MCP servers (HubSpot, Salesforce, Meta Ads, LinkedIn Ads, Google Sheets, Slack, Notion), Composio provides MCP access via a single server. See `tools/integrations/composio.md` for setup and `tools/composio/marketing-tools.md` for the full toolkit mapping.
 
-## Checking for Updates
+## Update Policy (LOCAL FORK)
 
-When using any skill from this repository:
-
-1. **Once per session**, on first skill use, check for updates:
-   - Fetch `VERSIONS.md` from GitHub: https://raw.githubusercontent.com/coreyhaines31/marketingskills/main/VERSIONS.md
-   - Compare versions against local skill files
-
-2. **Only prompt if meaningful**:
-   - 2 or more skills have updates, OR
-   - Any skill has a major version bump (e.g., 1.x to 2.x)
-
-3. **Non-blocking notification** at end of response:
-   ```
-   ---
-   Skills update available: X marketing skills have updates.
-   Say "update skills" to update automatically, or run `git pull` in your marketingskills folder.
-   ```
-
-4. **If user says "update skills"**:
-   - Run `git pull` in the marketingskills directory
-   - Confirm what was updated
+This is a personal fork. **Do NOT auto-check for updates.** Do not fetch VERSIONS.md, do not prompt about updates, do not run git pull unless the user explicitly asks. Updates from upstream (coreyhaines31/marketingskills) will be pulled selectively and reviewed manually.
 
 ## Skill Categories
 
